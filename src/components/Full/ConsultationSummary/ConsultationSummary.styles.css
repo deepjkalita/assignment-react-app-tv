@@ -1,0 +1,25 @@
+.consultation-summary h1{
+  color: #585F65;
+  font-size: 14px;
+  margin-left: 15px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+@media(min-width:600px){
+  .consultation-summary h1{
+    font-size: 20px;
+
+  }
+}
+@media(min-width:750px){
+  .consultation-summary h1{
+  font-size: 25px;
+  }
+
+}
+@media(min-width:1000px){
+  .consultation-summary h1{
+    font-size: 30px;
+  }
+
+}

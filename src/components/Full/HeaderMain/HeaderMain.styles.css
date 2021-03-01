@@ -1,0 +1,24 @@
+.line{
+  height: 1px;
+  width: 100%;
+  background-color: #EFEFEF;
+  margin-top: 9.5px;
+}
+.header-main{
+  display: flex;
+  align-items: center;
+  padding:9px 16px 0px 18px;
+  justify-content: space-between;
+}
+@media(min-width:752px){
+
+.header-main{
+  height: 45px;
+}
+}
+@media(min-width:1152px){
+
+.header-main{
+  height: 55px;
+}
+}

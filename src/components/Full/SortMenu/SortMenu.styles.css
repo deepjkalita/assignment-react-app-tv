@@ -1,0 +1,31 @@
+
+.sort-menu-sub{
+height:30px;
+width: 100%;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+.sort-menu-sub p{
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #40484F;
+}
+@media(min-width:650px){
+.sort-menu-sub p{
+font-size: 22px;
+}
+.sort-menu-sub img{
+width: 35px;
+height: 35px;
+}
+}
+@media(min-width:1000px){
+.sort-menu-sub p{
+font-size: 25px;
+}
+.sort-menu-sub img{
+width: 38px;
+height: 38px;
+}
+}

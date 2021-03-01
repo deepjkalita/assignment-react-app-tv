@@ -1,0 +1,12 @@
+.past-consultations{
+  display: block;
+  justify-content: space-around;
+  overflow-x:auto;
+  padding-left: 15px;
+
+}
+.past-consultations-sub {
+  display: inline-block;
+  margin-right: 7px;
+  margin-bottom: 7px;
+}

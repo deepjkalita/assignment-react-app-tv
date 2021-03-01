@@ -1,0 +1,38 @@
+.bottom-nav{
+  height: 55px;
+  width: 100%;
+position: fixed;
+background-image:
+    linear-gradient(
+      to bottom right,
+      #29323A, #6A6D72
+    );
+bottom: 0;
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+.button{
+  position: fixed;
+  bottom: 25px;
+  z-index: 2;
+}
+.container{
+  text-align: center;
+}
+
+@media(min-width:752px){
+  .bottom-nav{
+    height:65px;}
+  .button{
+    bottom: 35px;
+  }
+
+}
+@media(min-width:1152px){
+  .bottom-nav{
+    height:75px;}
+
+
+}

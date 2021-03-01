@@ -1,0 +1,19 @@
+.logo img {
+    height: 29px;
+    width:67px;
+
+}
+@media(min-width:752px){
+  .logo img {
+      height: 35px;
+      width:85px;
+
+  }
+}
+@media(min-width:1152px){
+  .logo img {
+      height: 45px;
+      width:95px;
+
+  }
+}
